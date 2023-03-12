@@ -1,3 +1,3 @@
 # kassio-repository
-Helm repository of third-parties used by kasiso
+Helm repository of third-parties used by kassio
 
