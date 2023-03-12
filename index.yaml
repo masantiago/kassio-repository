@@ -3,6 +3,16 @@ entries:
   test:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-03-12T19:39:43.525787269Z"
+    description: A Helm chart for Kubernetes
+    digest: 7ac8485b62fbbc95b32c4435f4181e6c70137e3c8ddef112c69529d652d3df59
+    name: test
+    type: application
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/test-0.2.0/test-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-03-12T19:32:29.707891976Z"
     description: A Helm chart for Kubernetes
     digest: 3d0626154a27da40036840077b90a74fdaa940c8be0884c8af8a499a4d2a15ce
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/test-0.1.0/test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-12T19:32:29.707904376Z"
+generated: "2023-03-12T19:39:43.525798069Z"
