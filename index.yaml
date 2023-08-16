@@ -1,36 +1,5 @@
 apiVersion: v1
-entries:
-  kassio-piper:
-  - annotations:
-      artifacthub.io/changes: |-
-        - kind: changed
-          description: Upgraded `common` chart dependency to version 4.5.2
-    apiVersion: v2
-    appVersion: 1.2.0
-    created: "2023-08-16T16:02:52.523504322Z"
-    dependencies:
-    - name: common
-      repository: https://library-charts.k8s-at-home.com
-      version: 4.5.2
-    description: Piper integration for kassio
-    digest: 9f420d8eb101a96e103c9c362196c15ec44d3070aa5e1ed50edac2681e06a585
-    home: https://github.com/masantiago/kassio-repository/tree/master/charts/piper
-    icon: https://upload.wikimedia.org/wikipedia/commons/6/6e/Home_Assistant_Logo.svg
-    keywords:
-    - kassio
-    - voice
-    - piper
-    kubeVersion: '>=1.16.0-0'
-    maintainers:
-    - email: miguelangel.santiago@hotmail.com
-      name: masantiago
-    name: kassio-piper
-    sources:
-    - https://github.com/rhasspy/rhasspy3/blob/master/docs/wyoming.md
-    - https://hub.docker.com/r/rhasspy/wyoming-piper
-    urls:
-    - https://github.com/masantiago/kassio-repository/releases/download/kassio-piper-1.0.0/kassio-piper-1.0.0.tgz
-    version: 1.0.0
+entries:  
   piper:
   - annotations:
       artifacthub.io/changes: |-
@@ -62,25 +31,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/piper-1.0.0/piper-1.0.0.tgz
     version: 1.0.0
-  test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-03-12T19:39:43.525787269Z"
-    description: A Helm chart for Kubernetes
-    digest: 7ac8485b62fbbc95b32c4435f4181e6c70137e3c8ddef112c69529d652d3df59
-    name: test
-    type: application
-    urls:
-    - https://github.com/masantiago/kassio-repository/releases/download/test-0.2.0/test-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-03-12T19:32:29.707891976Z"
-    description: A Helm chart for Kubernetes
-    digest: 3d0626154a27da40036840077b90a74fdaa940c8be0884c8af8a499a4d2a15ce
-    name: test
-    type: application
-    urls:
-    - https://github.com/masantiago/kassio-repository/releases/download/test-0.1.0/test-0.1.0.tgz
-    version: 0.1.0
 generated: "2023-08-16T16:26:15.157466827Z"
