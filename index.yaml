@@ -31,6 +31,37 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/kassio-piper-1.0.0/kassio-piper-1.0.0.tgz
     version: 1.0.0
+  piper:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-08-16T16:26:15.157421027Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Piper integration for kassio
+    digest: 0adbc5a30a09a575a96026dd072cee1c04d636dcacdadd4e47e08a43abceef20
+    home: https://github.com/masantiago/kassio-repository/tree/master/charts/piper
+    icon: https://upload.wikimedia.org/wikipedia/commons/6/6e/Home_Assistant_Logo.svg
+    keywords:
+    - kassio
+    - voice
+    - piper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: miguelangel.santiago@hotmail.com
+      name: masantiago
+    name: piper
+    sources:
+    - https://github.com/rhasspy/rhasspy3/blob/master/docs/wyoming.md
+    - https://hub.docker.com/r/rhasspy/wyoming-piper
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/piper-1.0.0/piper-1.0.0.tgz
+    version: 1.0.0
   test:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -52,4 +83,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/test-0.1.0/test-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-16T16:02:52.523518323Z"
+generated: "2023-08-16T16:26:15.157466827Z"
