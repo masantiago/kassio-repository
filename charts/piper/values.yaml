@@ -15,8 +15,8 @@ image:
 
 # -- Override the args for the default container
 args:
-  - --voice 
-  - es-es-sharvard-medium
+  - "--voice"
+  - "es-es-sharvard-medium"
 
 # -- environment variables. See more environment variables in the [heimdall documentation](https://github.com/linuxserver/docker-heimdall#parameters).
 # @default -- See below
