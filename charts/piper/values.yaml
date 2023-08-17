@@ -16,7 +16,7 @@ image:
 # -- Override the args for the default container
 args:
   - "--voice"
-  - "en-us-lessac-low"
+  - "en_US-lessac-low"
 
 # -- environment variables. See more environment variables in the [heimdall documentation](https://github.com/linuxserver/docker-heimdall#parameters).
 # @default -- See below
