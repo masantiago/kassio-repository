@@ -16,13 +16,13 @@ image:
 # -- Override the args for the default container
 args:
   - "--voice"
-  - "es-es-sharvard-medium"
+  - "en-us-lessac-low"
 
 # -- environment variables. See more environment variables in the [heimdall documentation](https://github.com/linuxserver/docker-heimdall#parameters).
 # @default -- See below
 env:
   # -- Set the container timezone
-  TZ: Europe/Madrid
+  TZ: UTC
   
 # -- Configures service settings for the chart.
 # @default -- See values.yaml
@@ -41,5 +41,6 @@ ingress:
 # -- Configure persistence settings for the chart under this key.
 # @default -- See values.yaml
 persistence:
-  data:
-    enabled: false
+  config:
+    enabled: true
+    mountPath: /data
