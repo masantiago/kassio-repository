@@ -1,5 +1,5 @@
 apiVersion: v1
-entries:  
+entries:
   piper:
   - annotations:
       artifacthub.io/changes: |-
@@ -31,4 +31,35 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/piper-1.0.0/piper-1.0.0.tgz
     version: 1.0.0
-generated: "2023-08-16T16:26:15.157466827Z"
+  whisper:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.2.0
+    created: "2023-08-17T15:28:53.2971391Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Whisper integration for kassio
+    digest: e9102cd6dee9d16f443d73840babb0bd9a557d38980711f98c33339624dbfbf8
+    home: https://github.com/masantiago/kassio-repository/tree/master/charts/whisper
+    icon: https://upload.wikimedia.org/wikipedia/commons/6/6e/Home_Assistant_Logo.svg
+    keywords:
+    - kassio
+    - voice
+    - whisper
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: miguelangel.santiago@hotmail.com
+      name: masantiago
+    name: whisper
+    sources:
+    - https://github.com/rhasspy/rhasspy3/blob/master/docs/wyoming.md
+    - https://hub.docker.com/r/rhasspy/wyoming-whisper
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/whisper-1.0.0/whisper-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-08-17T15:28:53.2971492Z"
