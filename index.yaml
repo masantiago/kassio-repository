@@ -3,6 +3,17 @@ entries:
   cert-manager-duckdns-webhook:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2025-03-02T17:19:35.794937278Z"
+    description: Helm Chart for the Cert Manager DuckDNS WebHook
+    digest: a60ff3bdf0ce295e1560462ef2ee08449cbcb1a3819a4f1fb8271ca77e56234e
+    maintainers:
+    - name: csp33
+    name: cert-manager-duckdns-webhook
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/cert-manager-duckdns-webhook-1.1.4/cert-manager-duckdns-webhook-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2025-03-02T15:53:52.146012963Z"
     description: Helm Chart for the Cert Manager DuckDNS WebHook
     digest: 6f8abbe775a961b46dce42be7e75bfdadfb57ed5d1ea28965e47bd8822131b4e
@@ -74,4 +85,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/whisper-1.0.0/whisper-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-02T15:53:52.146024144Z"
+generated: "2025-03-02T17:19:35.794945244Z"
