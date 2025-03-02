@@ -13,7 +13,7 @@ spec:
     email: {{ $.Values.clusterIssuer.email }}
     preferredChain: "ISRG Root X1"
     privateKeySecretRef:
-      name: {{ include "cert-manager-duckdns-webhook.fullname" . }}
+      name: {{ include "cert-manager-duckdns-webhook.fullname" . }}-cert
     server: {{ $.Values.clusterIssuer.server }}
     solvers:
       - dns01:
