@@ -1,0 +1,26 @@
+---
+apiVersion: v2
+appVersion: 1.11.1
+description: Piper integration for kassio
+name: piper
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - kassio
+  - mqtt
+home: https://github.com/masantiago/kassio-repository/tree/master/charts/piper
+icon: https://upload.wikimedia.org/wikipedia/commons/6/6e/Home_Assistant_Logo.svg
+sources:
+  - https://github.com/rhasspy/rhasspy3/blob/master/docs/wyoming.md
+  - https://hub.docker.com/r/rhasspy/wyoming-piper
+maintainers:
+  - name: masantiago
+    email: miguelangel.santiago@hotmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 4.5.2
