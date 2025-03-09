@@ -1,8 +1,8 @@
 ---
 apiVersion: v2
 appVersion: 1.11.1
-description: Piper integration for kassio
-name: piper
+description: Mqtt UI for kassio
+name: mqttx
 version: 1.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
