@@ -23,6 +23,32 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/cert-manager-duckdns-webhook-1.1.3/cert-manager-duckdns-webhook-1.1.3.tgz
     version: 1.1.3
+  mcp:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-04-13T06:44:40.243630566Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Model Context Protocol
+    digest: 94c8a535a21a99abf6b9969bfa79311575239410c855e94ae5f80541c098e28c
+    home: https://github.com/masantiago/kassio-repository/tree/master/charts/mcp
+    keywords:
+    - kassio
+    - mcp
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: miguelangel.santiago@hotmail.com
+      name: masantiago
+    name: mcp
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/mcp-1.0.0/mcp-1.0.0.tgz
+    version: 1.0.0
   mqttx:
   - annotations:
       artifacthub.io/changes: |-
@@ -114,4 +140,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/whisper-1.0.0/whisper-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-09T19:52:30.603486324Z"
+generated: "2025-04-13T06:44:40.243665682Z"
