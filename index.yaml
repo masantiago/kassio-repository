@@ -23,6 +23,17 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/cert-manager-duckdns-webhook-1.1.3/cert-manager-duckdns-webhook-1.1.3.tgz
     version: 1.1.3
+  code-server:
+  - apiVersion: v2
+    appVersion: 4.100.0
+    created: "2025-05-13T20:59:12.194584424Z"
+    description: A Helm chart for coder/code-server
+    digest: cfd03ae482634a096a5830f126c2a6b8760b68f327202107f5aec658fb611ad5
+    name: code-server
+    type: application
+    urls:
+    - https://github.com/masantiago/kassio-repository/releases/download/code-server-3.27.0/code-server-3.27.0.tgz
+    version: 3.27.0
   mcp:
   - annotations:
       artifacthub.io/changes: |-
@@ -140,4 +151,4 @@ entries:
     urls:
     - https://github.com/masantiago/kassio-repository/releases/download/whisper-1.0.0/whisper-1.0.0.tgz
     version: 1.0.0
-generated: "2025-04-13T06:44:40.243665682Z"
+generated: "2025-05-13T20:59:12.194604201Z"
